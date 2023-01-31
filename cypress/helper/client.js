@@ -1,4 +1,4 @@
-export function encryptBasicToken(token: string): string {
+export function encryptBasicToken(token) {
   return `Basic ${Buffer.from(
     `${token}${token.endsWith(":") ? "" : ":"}`
   ).toString("base64")}`;
@@ -7,6 +7,6 @@ export function encryptBasicToken(token: string): string {
 /**
  * encrypt oauth credentials as Bearer base64 token
  */
-export function encryptBearerToken(username: string, password: string): string {
+export function encryptBearerToken(username, password) {
   return `Bearer ${Buffer.from(`${username}:${password}`).toString("base64")}`;
 }

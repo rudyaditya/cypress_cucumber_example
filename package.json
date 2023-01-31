@@ -20,6 +20,7 @@
     "@badeball/cypress-cucumber-preprocessor": "^15.1.2",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
     "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
-    "cypress": "^12.4.1"
+    "cypress": "^12.4.1",
+    "ts-loader": "^9.4.2"
   }
 }

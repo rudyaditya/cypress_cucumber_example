@@ -11,7 +11,6 @@ module.exports = defineConfig({
       // `on` is used to hook into various events Cypress emits
       // `config` is the resolved Cypress config
       // on('file:preprocessor', cucumber())
-      require("cypress-failed-log/on")(on);
       await addCucumberPreprocessorPlugin(on, config);
       on(
         "file:preprocessor",
@@ -22,4 +21,5 @@ module.exports = defineConfig({
       return config;
     },
   },
+  video: false,
 });
