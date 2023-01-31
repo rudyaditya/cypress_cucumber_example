@@ -1,4 +1,4 @@
 1. Install 
-npm install
+`npm install`
 2. Run
-npx cypress run
+`npx cypress run`
