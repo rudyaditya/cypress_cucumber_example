@@ -1,0 +1,25 @@
+{
+  "name": "cypress_cucumber_example",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudyaditya/cypress_cucumber_example.git"
+  },
+  "author": "Rudy Aditya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudyaditya/cypress_cucumber_example/issues"
+  },
+  "homepage": "https://github.com/rudyaditya/cypress_cucumber_example#readme",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "cypress": "^12.4.1"
+  }
+}
