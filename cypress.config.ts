@@ -10,7 +10,6 @@ module.exports = defineConfig({
     async setupNodeEvents(on, config) {
       // `on` is used to hook into various events Cypress emits
       // `config` is the resolved Cypress config
-      // on('file:preprocessor', cucumber())
       await addCucumberPreprocessorPlugin(on, config);
       on(
         "file:preprocessor",
